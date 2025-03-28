@@ -37,6 +37,7 @@
             width: 100%;
             z-index: 1000;
         }
+
         ul {
             list-style: none;
         }
@@ -144,6 +145,7 @@
                     #e1306c,
                     #fd1f1f);
         }
+
         header {
             background: url('header.jpg') center/cover no-repeat;
             color: #fff;
@@ -179,8 +181,34 @@
         #contact {
             background-color: rgba(156, 156, 156, 0.466);
         }
+
         .btn-submit:hover {
             background-color: #ff1493;
+        }
+
+        .custom-card {
+            max-width: 400px;
+            margin: auto;
+            border: none;
+        }
+
+        .card img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .card-body {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .btn-custom {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
         }
 
         footer {
@@ -212,13 +240,47 @@
         </div>
     </header>
     <section class="text-center py-5">
-        <img src="gym-image.jpg" alt="Konditermi" class="img-fluid">
-        <img src="" alt="Konditermi" class="img-fluid">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 mb-4">
+                    <div class="card custom-card">
+                        <img src="kondi1.png" class="card-img-top" alt="Edzés kép">
+                        <div class="card-body">
+                            <h4 class="card-title">4 hetes edzésterv + étrend</h4>
+                            <h3 class="card-text"><strong>11.990 Ft</strong></h3>
+                            <ul class="text-start">
+                                <li>-Személyre szabott edzésterv + étrend</li>
+                                <li>-Heti forma ellenőrzés</li>
+                                <li>-Minden gyakorlathoz videós segítség</li>
+                            </ul>
+                            <a href="https://www.instagram.com/csni.ki" class="btn btn-custom">Tovább</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 mb-4">
+                    <div class="card custom-card">
+                        <img src="kondi2.png" class="card-img-top" alt="Edzés kép">
+                        <div class="card-body">
+                            <h4 class="card-title">8 hetes edzésterv + étrend</h4>
+                            <h3 class="card-text"><strong>15.990 Ft</strong></h3>
+                            <ul class="text-start">
+                                <li>-Személyre szabott edzésterv + étrend</li>
+                                <li>-Heti forma ellenőrzés</li>
+                                <li>-Minden gyakorlathoz videós segítség</li>
+                            </ul>
+                            <a href="https://www.instagram.com/csni.ki" class="btn btn-custom">Tovább</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    
     <section id="contact" class="py-5">
         <h2 style="color: #ff69b4;" class="text-center">Kapcsolat</h2>
         <p style="color: #ff69b4;" class="text-center">Lépj kapcsolatba velem az alábbi elérhetőségeken... <br>
-            <a style="text-decoration: none; color: #ff69b4;" href="mailto:nikifitness23@gmail.com">nikifitness23@gmail.com</a>
+            <a style="text-decoration: none; color: #ff69b4;"
+                href="mailto:nikifitness23@gmail.com">nikifitness23@gmail.com</a>
         </p>
         <ul class="example-2">
             <li class="icon-content">
