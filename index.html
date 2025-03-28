@@ -226,6 +226,10 @@
                     #fd1f1f);
         }
 
+        #hatter {
+            background-color: #F5D3E9;
+        }
+
         a {
             text-decoration: none;
             color: white;
@@ -233,6 +237,10 @@
 
         a:hover {
             color: pink;
+        }
+
+        a img:hover {
+            filter: brightness(1.3);
         }
 
         .example-2 .icon-content a[data-social="youtube"] .filled,
@@ -263,20 +271,58 @@
         <div class="container"></div>
     </header>
     <section id="about" class=" bg-white bg-opacity-50 py-5">
-        <h2 class="text-center">Bemutatkozás</h2>
-        <h5 class="text-center text-dark">Válaszd a számodra tökéletes  edzésprogramot! <br> Legyen szó konditermi vagy otthoni edzésekről,<br> segítek elérni céljaidat személyre szabott étrenddel és edzéstervvel!</h5>
+        <h2 class="text-center">Üdvözöllek!</h2>
+        <h5 class="text-center text-dark">Válaszd a számodra tökéletes edzésprogramot! <br> Legyen szó konditermi vagy
+            otthoni edzésekről,<br> segítek elérni céljaidat személyre szabott étrenddel és edzéstervvel!</h5>
     </section>
     <section id="gallery" class="container my-5">
         <h2 class="text-center py-3">Online Coaching</h2>
         <div class="row justify-content-center gap-3">
             <div class="col-md-5 d-flex align-items-stretch">
-                <a href=""><img src="coach1.png" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="Edzés kép 1"></a>
+                <a href=""><img src="coach1.png" class="img-fluid rounded w-100 h-100" style="object-fit: cover;"
+                        alt="Edzés kép 1"></a>
             </div>
             <div class="col-md-5 d-flex align-items-stretch">
-                <a href=""><img src="coach2.png" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="Edzés kép 2"></a>
+                <a href=""><img src="coach2.png" class="img-fluid rounded w-100 h-100" style="object-fit: cover;"
+                        alt="Edzés kép 2"></a>
             </div>
         </div>
-    </section>        
+    </section>
+    <section id="hatter">
+        <h2  class="text-center py-3">Eredmények és Vélemények</h2>
+        <div class="row justify-content-center gap-3">
+            <!-- Carousel on the left -->
+            <div class="col-md-5 d-flex align-items-stretch">
+                <div id="resultsCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="result1.png" class="d-block w-100 rounded" alt="Eredmény 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="result2.png" class="d-block w-100 rounded" alt="Eredmény 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="result3.png" class="d-block w-100 rounded" alt="Eredmény 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#resultsCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#resultsCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-5 d-flex align-items-stretch">
+                <img src="e2.png" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="Vélemények">
+            </div>
+        </div>
+        </section>
+    </section>
     <section id="contact" class="py-5">
         <h2 class="text-center">Kapcsolat</h2>
         <p class="text-center">Lépj kapcsolatba velem az alábbi elérhetőségeken... <br>
